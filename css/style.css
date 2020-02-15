@@ -1,0 +1,172 @@
+
+/* Layout
+================================= */
+* {
+	box-sizing: border-box;
+}
+
+body{
+	padding-top: 120px;
+	background-color: #d4b07a;
+}
+
+.container{
+	max-width: 1000px;
+}
+
+.navbar-fixed-top{
+	height: 110px;
+}
+
+.navbar-collapse,
+.head-color{
+	background-color: #131313;
+}
+
+a{
+	color: black;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'PT Serif';
+	text-align: center;
+	color: black;
+}
+
+p{
+	font-family: 'PT Serif';
+	font-size: 1.1em;
+	color: black;
+}
+
+.pg_feature h1 h4{
+	text-align: left;
+}
+
+h3.gallery {
+	text-align: left;
+	padding-left: 1.5%;
+	border-bottom: 1px solid black;
+}
+
+.schedule-link{
+	margin-top: 2%;
+}
+
+.webmaster{
+	margin-top: -5px;
+	font-size: 0.90em;
+}
+.enlistment{
+	display: block;
+	margin: 0 auto;
+	padding-top: 2%;
+}
+
+.copyright p{
+	margin-top: 5px;
+	text-align: right;
+}
+
+.facebook{
+	width: 40px;
+	height: 40px;
+	margin-top: -5px;
+	margin-left: auto;
+}
+
+.clearfix {
+  clear: both; 
+}
+
+.event {
+	text-align: center;
+	font-size: 16px;
+}
+
+input, textarea {
+	margin-bottom: 7px;
+}
+
+.card {
+	background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/* Schedule page
+================================= */
+
+.btn-primary,
+.btn-success,
+.btn-danger{
+    margin-right: 10px;
+}
+
+.list{
+	background-color: #e0c69f;
+}
+
+th{
+	font-size: 16px;
+}
+
+th,
+td{
+	text-align: center;
+}
+
+#gmaps {
+	width: 900px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+/* Images
+================================= */
+
+.lamoni-scouts{
+	border: 3px solid black;
+}
+
+.riders,
+.volunteers{
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure.history{
+	float: left;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+figcaption{
+	text-align: center;
+	color: black;
+}
+
+.sam,
+.bob,
+.greg{
+	width: 200px;
+	margin-top: 20px;
+}
+
+.info {
+	font-size: 1em;
+}
+
+.thumbnail{
+	margin-bottom: 15px;
+}
+
+@media screen and (max-width: 390px) {
+    .logo {
+	width: 85%;
+	margin-top: -14%;
+    }
+    
+    .webmaster{
+	font-size: 0.75em;
+    }
+}
