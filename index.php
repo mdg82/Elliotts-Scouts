@@ -5,17 +5,15 @@
      ?>
     <!--Main Content-->
     <div class="container-fluid">
-    <div class="pg_feature">
       <img class="img-responsive lamoni-scouts" src="img/elliotts_scouts_shoalcreek_revised2.png" alt="Scouts at Shoal Creek"/>
-    </div>
     </div>
   <div class="container">
 
     <div class="row">
         <div class="col-sm-8">
-            <h2><strong>Welcome to Elliott's Scouts</strong></h2>
-            <h4><em><strong>Major Ben Elliott&#39;s Scouts Civil War Re-enactment Unit<br>
-                    A Mounted and Dismounted Cavalry Unit</strong></em></h4>
+            <h2 id="boldtxt">Welcome to Elliott's Scouts</h2>
+            <h4 id="bold_em">Major Ben Elliott&#39;s Scouts Civil War Re-enactment Unit<br>
+                    A Mounted and Dismounted Cavalry Unit</h4>
               <p>Elliott&#39;s Scouts was mustered in 1994 and consists of men, women and family members.
       The name is derived from the actual cavalry scout unit under the famous General Joseph Shelby who never surrendered.
       Our company accurately demonstrates Confederate and Union mounted and dismounted cavalry, Bushwhackers/guerillas, Missouri State Guard and Missouri Enrolled Militia (Union).
@@ -34,17 +32,21 @@
       We are in the process of adding a lot of information, most notably historical information on the four impressions we portray.</p>
         </div>
         <div class="col-sm-4">
-            <h2><?php echo date("Y"); ?> Schedule</h2>
-        <a class="btn btn-primary btn-lg btn-block" href="schedule.php">Click for schedule</a>
+            <h2>Company A</h2>
+        <a class="btn btn-primary btn-lg btn-block" href="https://www.wix.com/dashboard/c8aba4c5-7cbd-4a7a-8f01-afc0e5bd4c7c/home/">Dismounted info</a>
+        </div>
+        <div class="col-sm-4 compB">
+            <h2>Company B</h2>
+        <a class="btn btn-primary btn-lg btn-block" href="schedule.php">Mounted info</a>
         </div>
         <div class="col-sm-4 enlistment">
             <h2>Enlistment</h2>
         <p>Interested in joining the scouts? Click and fill out our enlistment form.</p>
         <a class="btn btn-primary btn-lg btn-block" href="enlistment.php">Enlistment form</a>
         </div>
-        <div class="col-sm-4 hidden-xs">
+        <!--<div class="col-sm-4 hidden-xs">
             <img class="img-responsive riders" src="img/riders_wanted2.png" alt="Riders wanted"/>
-        </div>
+        </div>-->
       </div>
     <!--End Main Content-->
     <?php

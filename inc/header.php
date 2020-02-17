@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-   
+
    <head>
 	<title><?php echo $pageTitle; ?></title>
     <meta charset="UTF-8">
@@ -30,7 +30,6 @@
         <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
             <li class = "home <?php if ($section == "home") { echo "active"; } ?>"><a href="index.php">Home</a></li>
-            <li class = "gallery <?php if ($section == "gallery") { echo "active"; } ?>"><a href="gallery.php">Gallery</a></li>
             <li class = "history <?php if ($section == "history") { echo "active"; } ?>"><a href="history.php">History</a></li>
             <li class = "about <?php if ($section == "about") { echo "active"; } ?>"><a href="about.php">About</a></li>
             <li class = "contact <?php if ($section == "contact") { echo "active"; } ?>"><a href="contact.php">Contact</a></li>

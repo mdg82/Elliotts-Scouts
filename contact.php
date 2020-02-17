@@ -1,11 +1,11 @@
-<?php 
+<?php
 $pageTitle = "Contact Elliott's Scouts";
 $section = "contact";
 include("inc/header.php"); ?>
         <div class="container">
               <div class="row">
         <div class="col-xs-6 col-sm-6">
-            <h2><strong>Contact Elliott&#39;s Scouts</strong></h2>
+            <h2 id="boldtxt">Contact Elliott&#39;s Scouts</h2>
                         <p>Does the image of a precision attack on a federal column from the cover of the tree line sound enticing?</p>
                         <p>Is the thought of a portraying a Bushwhacker ambushing  Union Red Legs exciting?</p>
                         <p>If your are a horseman, Are you tired of trail riding on your horse and want to ride hard on your horse and
@@ -19,27 +19,17 @@ include("inc/header.php"); ?>
         </div>
             <div class="col-xs-6 col-sm-6 sam">
                 <figure><img class="img-responsive" src="img/sam_stanton3.png" alt="Sam Stanton" />
-                <p>Major Sam D. Stanton<br>(816)470-2621<br><a href="mailto:s.d.stanton@sbcglobal.net">s.d.stanton@sbcglobal.net</a></p>
+                <p>Major Sam D. Stanton<br>(816)803-2815<br><a href="mailto:sdstanton54@gmail.com">sdstanton54@gmail.com</a></p>
                 </figure>
         </div>
             <div class="col-xs-6 col-sm-6 bob">
                 <figure><img class="img-responsive" src="img/bob_green3.png" alt="Bob Green" />
-                <p>Captain Bob Green<br>(660)352-7561<br><a href="mailto:bobgreen35@hotmail.com">bobgreen35@hotmail.com</a></p></figure>
+                <p>Captain Bob Green<br>(816)465-0295<br><a href="mailto:bobgreen35@hotmail.com">bobgreen35@hotmail.com</a></p></figure>
         </div>
         <div class="col-xs-6 col-sm-6 greg">
                 <figure><img class="img-responsive" src="img/greg_quirin3.png" alt="Greg Quirin" />
                 <p>Lt. Greg Quirin<br>(816)699-4657<br><a href="mailto:qrngreg@aol.com">qrngreg@aol.com</a></p></figure>
                 </div>
         </div>
-        <!--<form name="membershipform" method="post" action="send_email_code.php">
-            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                <br>
-                <input class="form-control" id="address" name="address" placeholder="Mailing Address" type="address" required>
-                <br>
-                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                <br>
-                <input class="form-control" id="phone" name="phone" placeholder="Phone" type="phone" required>
-                <button class="btn btn-default pull-right" type="submit">Send</button>
-            </form>-->
 <?php
 include("inc/footer.php"); ?>

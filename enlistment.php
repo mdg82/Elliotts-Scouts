@@ -1,4 +1,4 @@
-<?php 
+<?php
 $pageTitle = "Elliott's Scouts Enlistment Form";
 include('inc/header.php'); ?>
     <div class="container">
