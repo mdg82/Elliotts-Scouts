@@ -4,7 +4,9 @@ include('inc/header.php'); ?>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <img class="enlistment img-responsive" src="img/enlistment-form.png" alt="Enlistment form">
+                <!--<img class="enlistment img-responsive" src="img/enlistment-form.png" alt="Enlistment form">-->
+
+
             </div>
              <div class="col-sm-3 col-sm-push-2 schedule-link">
                 <a class="btn btn-primary btn-lg btn-block" href="enlistment-form.pdf">PDF version</a>
