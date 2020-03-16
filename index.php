@@ -42,24 +42,34 @@
         <div class="col-sm-4 enlistment">
             <h2>Enlistment</h2>
         <p>Interested in joining the scouts? Click and fill out our enlistment form.</p>
-        <a class="btn btn-primary btn-lg btn-block" id="modalBtn">Enlistment form</a>
+        <a class="btn btn-primary btn-lg btn-block" onclick="modalButton()">Enlistment form</a>
         </div>
 
 <div id="myModal" class="modal">
-  <span class="close" title="Close Modal">&times;</span>
+  <span class="close" onclick="closeButton()" title="Close Modal">&times;</span>
 <div class="form-container">
-<form class="modal-content" action="/action_page.php">
+<form class="modal-content" method="post" name="enlistmentform" action="enlistment-form.php">
 
 <div class="form-row">
 <div class="col-50">
-<h3>Billing Address</h3>
-<label for="fname"><i class="fa fa-user"></i> Full Name</label>
-<input type="text" id="fname" name="firstname" placeholder="John M. Doe">
-<label for="email"><i class="fa fa-envelope"></i> Email</label>
+<h3>Enlistment Form</h3>
+<label for="name">Full Name</label>
+<input type="text" id="name" name="name" placeholder="John M. Doe">
+<label for="email">Email</label>
 <input type="text" id="email" name="email" placeholder="john@example.com">
-<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+<div class="form-row">
+<div class="col-50">
+  <label for="cellPhone">Cell Phone</label>
+  <input type="tel" id="cellPhone" name="cellPhone" placeholder="816-555-5555">
+</div>
+<div class="col-50">
+  <label for="workPhone">Work Phone</label>
+  <input type="tel" id="workPhone" name="workPhone" placeholder="816-555-5555">
+</div>
+</div>
+<label for="adr">Address</label>
 <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-<label for="city"><i class="fa fa-institution"></i> City</label>
+<label for="city">City</label>
 <input type="text" id="city" name="city" placeholder="New York">
 
 <div class="form-row">
@@ -75,38 +85,28 @@
 </div>
 
 <div class="col-50">
-<h3>Payment</h3>
-<label for="fname">Accepted Cards</label>
-<div class="icon-container">
-  <i class="fa fa-cc-visa" style="color:navy;"></i>
-  <i class="fa fa-cc-amex" style="color:blue;"></i>
-  <i class="fa fa-cc-mastercard" style="color:red;"></i>
-  <i class="fa fa-cc-discover" style="color:orange;"></i>
-</div>
-<label for="cname">Name on Card</label>
-<input type="text" id="cname" name="cardname" placeholder="John More Doe">
-<label for="ccnum">Credit card number</label>
-<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-<label for="expmonth">Exp Month</label>
-<input type="text" id="expmonth" name="expmonth" placeholder="September">
+  <h3>Additional Info</h3>
+<label for="cavUnit">Dismounted or Mounted</label>
+<input type="text" id="cavUnit" name="cavUnit">
+<label for="ownHorse">If Mounted, do you own a horse?</label>
+<input type="text" id="ownHorse" name="ownHorse">
+<label for="ownTrailer">If Mounted, do you own a trailer?</label>
+<input type="text" id="ownTrailer" name="ownTrailer">
+<label for="familyComment">Spouse and/or children wanting to join:</label>
+<textarea name="message" rows="5" cols="50" placeholder="Spouse/children/children ages/etc"></textarea>
 
 <div class="form-row">
   <div class="col-50">
-    <label for="expyear">Exp Year</label>
-    <input type="text" id="expyear" name="expyear" placeholder="2018">
+    <a class="btn btn-primary btn-md btn-block" href="enlistment-form.pdf">PDF version</a>
   </div>
   <div class="col-50">
-    <label for="cvv">CVV</label>
-    <input type="text" id="cvv" name="cvv" placeholder="352">
+    <a class="btn btn-primary btn-md btn-block" href="enlistment-form.docx">Microsoft Word version</a>
   </div>
 </div>
 </div>
 
 </div>
-<label>
-<input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-</label>
-<input type="submit" value="Continue to checkout" class="form-btn">
+<input type="submit" value="Submit" class="form-btn">
 </form>
 </div>
 </div>

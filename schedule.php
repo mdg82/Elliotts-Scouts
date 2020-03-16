@@ -15,9 +15,10 @@ $result = mysqli_query($mysqli, "SELECT *, DATE_FORMAT (date, '%m/%d/%Y') AS dat
         <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Elliott's Scouts Schedule</h1>
+              <a class="btn btn-primary btn-lg" href="mounted.php">Gallery</a>
+                <h1>2020 Mounted Schedule</h1>
             </div>
-        </div>              
+        </div>
         <div class="row">
         <div class="col-sm-12">
         <table class="table list">
