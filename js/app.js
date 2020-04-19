@@ -13,10 +13,10 @@ function closeButton() {
   document.getElementById("myModal").style.display= "none";
 }
 
-var frmvalidator  = new Validator("enlistmentform");
+/*var frmvalidator  = new Validator("enlistmentform");
 frmvalidator.addValidation("name","req","Please provide your name");
 frmvalidator.addValidation("email","req","Please provide your email");
-frmvalidator.addValidation("email","email","Please enter a valid email address");
+frmvalidator.addValidation("email","email","Please enter a valid email address");*/
 
 /*Get the button that opens the modal
 var btn = document.getElementById("modalBtn");*/
